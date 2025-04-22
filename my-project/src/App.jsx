@@ -197,6 +197,50 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        {/* OS*/}
+        <div
+          id="OS"
+          className="min-h-screen flex items-center justify-center max-w-7xl mx-auto"
+        >
+          <div className="flex items-center space-x-2">
+            {/* Logo */}
+            <img
+              src="/assets/OSLogo.svg"
+              alt="Netlab Logo"
+              className="h-40 m-5 hover:scale-110 transition-transform "
+            />
+
+            <div className="flex flex-col items-start">
+              {/* NETLAB SBD */}
+              <h1 className="p-3 text-4xl font-bold mb-2">
+                NETLAB{" "}
+                <span className="rounded-lg bg-black dark:bg-transparent text-white px-2">
+                  OS
+                </span>
+              </h1>
+
+              {/* Text Content */}
+              <div className="rounded-lg border-2 border-black p-3 dark:bg-zinc-800 dark:border-0">
+                <p className="">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas porttitor congue massa. Fusce posuere, magna sed
+                  pulvinar ultricies, purus lectus malesuada libero, sit amet
+                  commodo magna eros quis urna. Nunc viverra imperdiet enim.
+                  Fusce est. Vivamus a tellus.
+                </p>
+                <p className="">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Proin pharetra nonummy
+                  pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec
+                  laoreet nonummy augue.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
       </main>
     </div>
   );
