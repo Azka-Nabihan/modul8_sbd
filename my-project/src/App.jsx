@@ -17,7 +17,7 @@ export default function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-4 border-b border-gray-300 dark:border-gray-700 bg-white dark:bg-black">
         <div className="flex items-center">
-          <img src="./assets/Logo.svg" alt="Netlab Logo" className="h-8 mr-2" />
+          <img src="/assets/Logo.svg" alt="Netlab Logo" className="h-8 mr-2" />
           <span className="text-lg font-bold">Network Laboratory</span>
         </div>
         {/* Navigation Links */}
@@ -80,7 +80,7 @@ export default function App() {
           <div className="flex items-center space-x-2">
             {/* Logo */}
             <img
-              src="./assets/SBDLogo.svg"
+              src="/assets/SBDLogo.svg"
               alt="Netlab Logo"
               className="h-40 m-5 hover:scale-110 transition-transform "
             />
@@ -122,7 +122,7 @@ export default function App() {
           <div className="flex flex-row-reverse items-center space-x-2">
             {/* Logo */}
             <img
-              src="./assets/DMJLogo.svg"
+              src="/assets/DMJLogo.svg"
               alt="Netlab Logo"
               className="h-40 m-5 hover:scale-110 transition-transform "
             />
@@ -164,7 +164,7 @@ export default function App() {
           <div className="flex items-center space-x-2">
             {/* Logo */}
             <img
-              src="./assets/OSLogo.svg"
+              src="/assets/OSLogo.svg"
               alt="Netlab Logo"
               className="h-40 m-5 hover:scale-110 transition-transform "
             />
